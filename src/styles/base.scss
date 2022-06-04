@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+@import "./variables.scss";
+
+html, body {
+  color: $gray;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 17px;
+  height: 100%;
+}
+
+h1 {
+  color: $blue;
+}
+
+h2 {
+  color: $purple;
+}
+
+p {
+  margin-bottom: $gap;
+}
+
+a {
+  color: $orange;
+}
